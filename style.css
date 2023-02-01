@@ -1,0 +1,24 @@
+#container {
+  width: 500px;
+  height: 500px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: pink;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: fadeOut 0.5s;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
